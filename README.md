@@ -5,7 +5,7 @@ This launcher consists on a set of powershell scripts to run [Pretendo.Backend](
 1. For now, it only runs in Windows
 2. For now, it requires dotnet core 8.0 SDK [install](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 3. It requires previous installation of rustc [install](https://www.rust-lang.org/tools/install)
-4. Pretendo needs to run in localhost:80 (http) and localhost:443 (https), if for any reason this is a problem, read "#How to run multiple services together"
+4. Pretendo needs to run in localhost:80 (http) and localhost:443 (https), if for any reason this is a problem, [read this](#how-to-run-multiple-services-together)
 ## How to run?
 # To run Pretendo App (runs backend + frontend together)
 
