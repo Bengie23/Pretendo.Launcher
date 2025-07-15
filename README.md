@@ -1,5 +1,10 @@
 ## Pretendo Launcher 
-This launcher consists on a set of powershell scripts to run [Pretendo.Backend](https://github.com/Bengie23/Pretendo.Backend) and [Pretendo.Frontend](https://github.com/Bengie23/Pretendo_Frontend), which together run as Pretendo APP 🐼.
+This launcher consists on a set of powershell scripts to run [Pretendo.Backend](https://github.com/Bengie23/Pretendo.Backend) and [Pretendo.Frontend](https://github.com/Bengie23/Pretendo_Frontend), which together run as Pretendo APP 🐼. Additionally, all the chocolatey instalation files are stored here.
+ To install with chocolatey run:  
+```
+choco install pretendo-local-mocks
+```
+**Note:** Installing through choco is the **default** way to install Pretendo App. *Running the launcher scripts is only intended for development purposes, all next steps are unnecesary if installing through choco.*
 
 ## Pre-Requisites
 1. For now, it only runs in Windows

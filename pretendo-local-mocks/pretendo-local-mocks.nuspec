@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pretendo-local-mocks</id>
+    <version>0.1.0-alpha</version>
+    <packageSourceUrl>https://github.com/Bengie23/Pretendo_Frontend;https://github.com/Bengie23/Pretendo.Backend</packageSourceUrl>
+    <owners>Ben Lopez (Bengie23/github)</owners>
+    <title>Pretendo Local Mocks</title>
+    <authors>Ben Lopez</authors>
+    <projectUrl>https://bengie23.github.io/Pretendo.Website/</projectUrl>
+    <iconUrl>http://rawcdn.githack.com/Pretendo.Launcher/master/pretendo-panda.png</iconUrl>
+    <docsUrl>https://bengie23.github.io/Pretendo.Website/</docsUrl>
+    <tags>pretendo mock mocks development tests</tags>
+    <summary>A local mock server that speeds up your development, testing and CI/CD process.</summary>
+    <description>Pretendo App is (an open source) small, but cool http mock server that runs locally by catching http calls from your local network and preventing them to reach out the internet. </description>
+    <releaseNotes>Actual release notes will come in future versions of this nuspec</releaseNotes>
+
+   <dependencies>
+    <dependency id="vcredist140" />
+  </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
