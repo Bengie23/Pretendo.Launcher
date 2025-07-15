@@ -14,11 +14,12 @@
     <docsUrl>https://bengie23.github.io/Pretendo.Website/</docsUrl>
     <tags>pretendo mock mocks development tests</tags>
     <summary>A local mock server that speeds up your development, testing and CI/CD process.</summary>
-    <description>Pretendo App is (an open source) small, but cool http mock server that runs locally by catching http calls from your local network and preventing them to reach out the internet. </description>
+    <description>Pretendo App is (an open source) small, but cool http mock server that runs locally by catching http calls from your local network and preventing them to reach out the internet. It runs by  combining a desktop app (Pretendo Frontend) and a local API (Pretendo Backend), this API eventually should become a windwos service, for initial alpha releases, this will just run as a console. </description>
     <releaseNotes>Actual release notes will come in future versions of this nuspec</releaseNotes>
 
    <dependencies>
     <dependency id="vcredist140" />
+    <dependency id="dotnet-runtime" version="8.0.18" />
   </dependencies>
   </metadata>
   <files>
