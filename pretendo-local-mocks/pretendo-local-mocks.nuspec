@@ -10,7 +10,7 @@
     <title>Pretendo Local Mocks</title>
     <authors>Ben Lopez</authors>
     <projectUrl>https://bengie23.github.io/Pretendo.Website/</projectUrl>
-    <iconUrl>http://rawcdn.githack.com/Pretendo.Launcher/master/pretendo-panda.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/Bengie23/Pretendo.Launcher/master/pretendo-panda.png</iconUrl>
     <docsUrl>https://bengie23.github.io/Pretendo.Website/</docsUrl>
     <tags>pretendo mock mocks development tests</tags>
     <summary>A local mock server that speeds up your development, testing and CI/CD process.</summary>
